@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="light dark" />
+		<title>JSS | StyleSheets in JavaScript</title>
+		<script type="importmap">
+			{
+				"imports": {
+					"@shgysk8zer0/jss/": "../",
+					"@shgysk8zer0/jswaggersheets/": "https://unpkg.com/@shgysk8zer0/jswaggersheets@1.1.0/",
+					"@shgysk8zer0/kazoo/": "https://unpkg.com/@shgysk8zer0/kazoo@0.2.3/",
+					"@shgysk8zer0/components/": "https://unpkg.com/@shgysk8zer0/components@0.1.1/"
+				}
+			}
+		</script>
+		<script src="https://unpkg.com/@shgysk8zer0/polyfills@0.2.3/all.min.js" integrity="sha384-wl/RnLPkNi8xEjcHWQn3+bn3rOHluF9WhOSxg3ujMS9bjUzhDuWrQjlq2q76JGtS" referrerpolicy="no-referrer" crossorigin="anonymous" fetchpriority="auto" defer=""></script>
+		<script type="module" src="./index.js" referrerpolicy="no-referrer"></script>
+	</head>
+	<body class="system-ui">
+		<nav id="nav" class="bg-red-4 light-2 sticky top flex row wrap"></nav>
+		<main id="main">
+			<div id="palettes"></div>
+		</main>
+		<footer id="footer" class="bg-dark-4 light-2">
+			<github-user user="shgysk8zer0">
+				<span slot="header" class="block serif bolder">Created By</span>
+			</github-user>
+		</footer>
+	</body>
+</html>
