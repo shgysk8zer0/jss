@@ -1,0 +1,49 @@
+#nav {
+	padding: 0.3rem 1.3rem;
+	gap: 0.7rem;
+
+	& > a {
+		text-decoration: none;
+	}
+}
+
+#footer {
+	padding: 1.2rem;
+}
+
+.palette-list {
+	list-style: none;
+	padding: 0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dadada;
+	border-radius: 4px;
+
+	@media (prefers-color-scheme: dark) {
+		& {
+			border-color: #7b7b7b;
+		}
+	}
+}
+
+.palette-color {
+	width: 160px;
+	height: 80px;
+	padding: calc(40px - 1.2em) calc(80px - 4ch);
+	color: #fafafa;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	cursor: copy;
+	transition: transform 300ms ease-in-out, border-radius 300ms ease-out, box-shadow 300ms ease-in;
+
+	&:hover {
+		transform: scale(1.2) rotate(-3deg) translatey(-8px);
+		border-radius: 4px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+	}
+}
+
+.palette-lists {
+	gap: 24px;
+	justify-content: center;
+}
+
