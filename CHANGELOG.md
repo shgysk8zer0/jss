@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### [v1.1.0] - 2023-07-26
+### [v1.0.1] - 2023-09-07
+
+### Added
+- Create module exporting common styles as `CSSStyleSheet`s
+
+### [v1.0.0] - 2023-07-26
 
 Initial Release

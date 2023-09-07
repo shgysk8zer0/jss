@@ -1,6 +1,6 @@
 {
   "name": "@shgysk8zer0/jss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple JavaScript StyleSheets & Palettes",
   "type": "module",
   "module": "index.js",
